@@ -103,5 +103,3 @@ def lista_compras(lista):
         lista_unica += list(prato['quantidades'].keys())
     return list(set(lista_unica))
 
-# todo testar depois uma forma de mudar as quantidades para que quando for gerada a lista de compras, ela inclua também
-#  uma lista com as quantidades de cada ingrediente
